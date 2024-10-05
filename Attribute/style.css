@@ -1,0 +1,140 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  margin-top: 100px;
+  font-family: monospace;
+  user-select: ;
+}
+.div1 ::selection {
+  color: red;
+  background: yellow;
+}
+
+.div1{
+  border: 1px solid black;
+  padding: 50px;
+  margin: 20px;
+}
+
+p[class~="para1"]{
+  color: white;
+  background-color: black;
+  padding: 20px 10px;
+  text-align: left;
+}
+
+p[class|="para"]{
+  color: rgba(0, 0, 0, 0.5);
+  background-color: tomato;
+  padding: 20px 10px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+/* p[class^="para"]{
+  color: white;
+  background-color: tomato;
+  padding: 20px 10px;
+  text-align: left;
+}
+
+p[class$="para"]{
+  color: white;
+  background-color: tomato;
+  padding: 20px 10px;
+  text-align: left;
+}
+
+p[class*="para"]{
+  color: white;
+  background-color: tomato;
+  padding: 20px 10px;
+  text-align: left;
+} */
+
+p[class="para_3"]{
+  color: white;
+  background-color: green;
+  padding: 20px 10px;
+  text-align: right;
+}
+
+
+a[target="_blank"]{
+  color: black;
+  margin-right: 30px;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 10px 25px;
+}
+
+a[target="_blank"]:hover{
+  color: white;
+  background-color: black;
+  
+}
+
+a[target="_self"]{
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 11px 36px ;
+  
+}
+a[target="_self"]:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

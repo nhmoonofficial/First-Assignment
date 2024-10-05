@@ -1,0 +1,9 @@
+.banner{
+  width: 100%;
+  height: 500px;
+  background-image:  url(Nazmul-Moon-Logo-3.png) , url(what-is-coding.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50%, cover;
+  opacity: 0.5%, 1%;
+}
