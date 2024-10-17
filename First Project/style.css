@@ -125,9 +125,65 @@ button{
 
 
 .track{
-  position: relative;
+  background-image: url(Image/bg\ 3.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+  
 }
 
-.track{
-  position: absolute;
+.leftside{
+  width: 100%;
+  
+
+}
+
+
+.leftside h1{
+  font-size: 85px;
+  font-weight: 700;
+  margin-top: -60px;
+  margin-bottom: 90px;
+  margin-left: 15%;
+}
+
+.test{
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  /* margin-right: 15%; */
+}
+
+.leftitem2{
+  margin-top: 50px;
+}
+
+.leftitemmargin1{
+  padding-top: 20px;
+}
+
+.leftitemmargin{
+  padding-top: 20px;
+}
+
+
+.rightside{
+  width: 50%;
+  margin-top: 10px;
+  padding-right:  20%;
+  padding-left: 50px;
+
+}
+
+.leftside{
+  width: 50%;
+}
+
+.rightside h3{
+  font-size: 40px;
+  font-weight: 400;
+  color: #9393C4;
+  padding-bottom: 50px;
 }

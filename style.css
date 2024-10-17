@@ -44,7 +44,7 @@ body{
   width: 36px;
   cursor: pointer;
 }
-.iconlist{
+.iconlist {
   display: flex;
   align-items: center;
   gap: 10px;
